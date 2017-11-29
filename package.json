@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "rocketchat-commandwords@^1.0.0",
+        "scope": null,
+        "escapedName": "rocketchat-commandwords",
+        "name": "rocketchat-commandwords",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "C:\\Users\\gary\\Documents\\projects\\Rocket.Chat.Fork"
+    ]
+  ],
+  "_from": "rocketchat-commandwords@>=1.0.0 <2.0.0",
+  "_id": "rocketchat-commandwords@1.0.0",
+  "_inCache": true,
+  "_location": "/rocketchat-commandwords",
+  "_nodeVersion": "8.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/rocketchat-commandwords-1.0.0.tgz_1511848475304_0.7198404984083027"
+  },
+  "_npmUser": {
+    "name": "garychapman",
+    "email": "gary.chapman@4thparty.com.au"
+  },
+  "_npmVersion": "5.0.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "rocketchat-commandwords@^1.0.0",
+    "scope": null,
+    "escapedName": "rocketchat-commandwords",
+    "name": "rocketchat-commandwords",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rocketchat-commandwords/-/rocketchat-commandwords-1.0.0.tgz",
+  "_shasum": "eda1b596dea7f5d4e5aeabdcf6902fee27a6d921",
+  "_shrinkwrap": null,
+  "_spec": "rocketchat-commandwords@^1.0.0",
+  "_where": "C:\\Users\\gary\\Documents\\projects\\Rocket.Chat.Fork",
+  "author": "",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "description": "Parses messages for [[messageText]] or [[messageText@online_recipient]] and turns each into a clickable link that will paste <messageText> into the current room in the first case, or DM <messageText> to <online_recipient> in the second case.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-XwA9w2FG+ejqOVCdqU/bCIwHCQYaToKN88kqIH5TllLPBlgEdE4g2mF1rc/GleXJAKdL+hbAx0vAJ2aokz/2Zg==",
+    "shasum": "eda1b596dea7f5d4e5aeabdcf6902fee27a6d921",
+    "tarball": "https://registry.npmjs.org/rocketchat-commandwords/-/rocketchat-commandwords-1.0.0.tgz"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "commandwords.js",
+  "maintainers": [
+    {
+      "name": "garychapman",
+      "email": "gary.chapman@4thparty.com.au"
+    }
+  ],
+  "name": "rocketchat-commandwords",
+  "optionalDependencies": {},
+  "readme": "Parses messages for [[messageText]] or [[messageText@online_recipient]] and turns each into a clickable link that will paste <messageText> into the current room in the first case, or DM <messageText> to <online_recipient> in the second case.\r\n",
+  "readmeFilename": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
