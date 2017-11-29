@@ -58,6 +58,10 @@
     "shasum": "eda1b596dea7f5d4e5aeabdcf6902fee27a6d921",
     "tarball": "https://registry.npmjs.org/rocketchat-commandwords/-/rocketchat-commandwords-1.0.0.tgz"
   },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/PropertyUX/rocketchat-commandwords.git"
+  },  
   "keywords": [],
   "license": "ISC",
   "main": "commandwords.js",
