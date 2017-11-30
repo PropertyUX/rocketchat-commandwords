@@ -5,6 +5,8 @@ Adds a `renderMessage` callback to Rocket.chat that converts text inside [[doubl
 - `[[message]]` will paste _message_ into the current room <br/>
 - `[[message@recipient]]` will DM _message_ to _recipient_ (if that recipient is online)
 
+This is ideal for allowing bots to present simple choices that require minimal interaction from the user.
+
 ## Getting Started
 
 This package contains both client and server side code. To use it under Rocket.chat, we recommend you create a file under your project root such as \common\commandwords.js that contains the following line:
