@@ -12,7 +12,7 @@ if (Meteor.isClient) {
         // NOTE : because something else in the rendering pipeline may have already altered the HTML
         // (e.g. converting @user to a mention-link), we look at the original message.msg but ultimately
         // replace the HTML, overwriting any markup previously added
-        message.html = message.msg.replace(/\[\[([^@\]]*)@?(.*)\]\]/gi, function(match, text, recipient) {
+        message.html = message.msg.replace(/\[\[([^@\]]*)@?([^\]]*)]]/gi, function(match, text, recipient) {
           if (recipient 
               && Meteor.user().username.toLowerCase() !== recipient.toLowerCase() // messaging yourself makes no sense
               && Meteor.users.findOne({ username: recipient })) {
